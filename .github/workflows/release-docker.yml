@@ -2,8 +2,8 @@ name: Release Image
 
 on:
   push:
-    tags:
-      - '*'
+    branches:
+      - 'master'
 
 jobs:
   main:
